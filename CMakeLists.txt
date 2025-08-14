@@ -62,8 +62,7 @@ target_include_directories(main PRIVATE
 target_link_libraries(main 
         pico_stdlib
         hardware_i2c
-        hardware_adc
-        
+        hardware_adc      
         )
 
 pico_add_extra_outputs(main)
