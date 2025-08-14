@@ -40,6 +40,7 @@ add_executable(main
     drivers/ssd1306_i2c.c
     hal/display.c
     hal/soloA.c
+    hal/soloB.c
 )
 
 pico_set_program_name(main "main")
